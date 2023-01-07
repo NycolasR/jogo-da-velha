@@ -11,7 +11,7 @@ import { JogoDaVelhaService } from './shared';
     CommonModule
   ],
   exports: [
-    JogoDaVelhaComponent // export deve ser feito para renderização do componente, já que não há roteamento
+    JogoDaVelhaComponent, // export deve ser feito para renderização do componente, já que não há roteamento
   ],
   providers: [
     JogoDaVelhaService
